@@ -1,0 +1,29 @@
+
+default:
+  frame_num: 32
+  pre_prompt: ""
+  post_prompt: "\nAnswer the question using a single word or phrase."
+gemini_api:
+  gemini_api_flag: "full subtitle"
+llava_vid:
+  frame_num: 768
+  pre_prompt: ""
+  post_prompt: "\nAnswer the question using a single word or phrase."
+frame_num: 32
+pre_promt: ""
+post_promt: "\nAnswer the question using a single word or phrase."
+
+  # gpt4v:
+  #   pre_prompt: ""
+  #   post_prompt: 
+  # # qwen_vl:  
+  # #   pre_prompt: ""
+  # #   post_prompt: " Answer:"
+  # # otterhd:
+  # #   pre_prompt: ""
+  # #   post_prompt: " Answer:"
+  # xcomposer2_4khd:
+  #   pre_prompt: "[UNUSED_TOKEN_146]user\n"
+  #   post_prompt: " Answer this question with A, B, C, or D.[UNUSED_TOKEN_145]\n[UNUSED_TOKEN_146]assistant\n"
+metadata:
+  - version: 0.0
